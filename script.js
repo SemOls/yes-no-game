@@ -198,5 +198,5 @@ function questionTwenty () {
     btnOne.innerHTML="Да";
     btnTwo.innerHTML="Да";
     btnOne.addEventListener("click", questionSeventeen);
-    btnTwo.addEventListener("click", questionSeventeen);
+     btnTwo.style="display:none";
 }
